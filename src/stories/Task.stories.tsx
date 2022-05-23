@@ -34,6 +34,6 @@ const Template: ComponentStory<typeof Task> = (args) => <Task {...args}/>;
 export const TaskIsNotDoneStory = Template.bind({});
 
 TaskIsNotDoneStory.args = {
-  todolistId: 'blablaTask',
+  todolistId: 'blaTask',
   task: {id: 'qwew', title: 'HTML', isDone: false}
 }
